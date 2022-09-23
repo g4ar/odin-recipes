@@ -4,16 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet"> 
     <title>The Greek God's Guide to Cooking</title>
 </head>
 <body>
-    <img src="https://qph.cf2.quoracdn.net/main-qimg-804fef7a537cb212be0aeb11459c6aa5.webp" alt="Cornucopia of food"/>
-    <h1>Godly Recipes:</h1>
-    <ol>
-        <li><a href="./recipes/lasagna.html">Loki's Lasagna</a></li>
-        <li><a href="./recipes/Dionysus-drunk-deer-chili.html">Dionysus drunk deer chili</a></li>
-        <li><a href="./recipes/Aphrodite-cornucopia-salad.html">Aphrodite's cornucopia salad</a></li>
+        <div class="menu-container">
+            <div class="menu">
+                <div class="date"> <span id='date-time'>Date</span></div>
+                <div class="links"></div>
+                    <div class="signup"><a href=./database/sign-up.html>Sign Up</a></div>
+                    <div class="login"><a href="./database/login.html">Login</a> </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="header">
+                <div class="subscribe">Subscribe</div>
+                <div class="logo"><img src="https://qph.cf2.quoracdn.net/main-qimg-804fef7a537cb212be0aeb11459c6aa5.webp" alt="Cornucopia of food" class="center"/></div>
+                <div class="social"><img src="./images/social-icons.svg" alt="Social media icons"/></div>
+            </div>
+        </div>
 
+    
+    <h1>Godly Recipes</h1>
+    <ol class="master-recipe">
+        <li class="recipe"><a href="./recipes/lasagna.html">Loki's Lasagna</a></li>
+        <li class="recipe"><a href="./recipes/Dionysus-drunk-deer-chili.html">Dionysus drunk deer chili</a></li>
+        <li class="recipe"><a href="./recipes/Aphrodite-cornucopia-salad.html">Aphrodite's cornucopia salad</a></li>
     </ol>
+    <div class='photo-grid-container'>
+        <div class='photo-grid'>
+          <div class='photo-grid-item first-item'>
+            <img src='./images/one.svg'/>
+          </div>
+          <div class='photo-grid-item'>
+            <img src='./images/two.svg'/>
+          </div>
+          <div class='photo-grid-item'>
+            <img src='./images/three.svg'/>
+          </div>
+          <div class='photo-grid-item'>
+            <img src='./images/four.svg'/>
+          </div>
+          <div class='photo-grid-item last-item'>
+            <img src='./images/five.svg'/>
+          </div>
+        </div>
+      </div>
+
+      <div class='footer'>
+        <div class='footer-item footer-one'></div>
+        <div class='footer-item footer-two'></div>
+        <div class='footer-item footer-three'></div>
+      </div>
+      
 </body>
 </html>
